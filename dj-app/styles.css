@@ -6,13 +6,15 @@ body {
     padding: 0;
 }
 #myVideo {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
     position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+    right: 0; 
     bottom: 0;
-    z-index: -1;
+    width: 100%; 
+    height: 100px;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+}
+h1 {
+    color: red;
 }
