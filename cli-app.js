@@ -3,7 +3,7 @@
 const ps = require("prompt-sync");
 const prompt = ps();
 
-let comm = prompt("Type 'start' to start the 'Dalida's iPhone Store'CLI app: ");
+let comm = prompt("Type 'start' to start the 'Dalida's iPhone Store' CLI app: ");
 let basket = [];
 let finalPrice = 0;
 const commands = {
@@ -14,7 +14,7 @@ const commands = {
     4: 'Delete a product from basket',
     5: 'See the final price'
 }
-let products = ['iPhone 11 64gb', 'iPhone 11 128gb', 'iPhone 11 Pro 64gb', 'iPhone 11 Pro 128gb', 'iPhone 11 Pro Max 64gb', 'iPhone 11 Pro Max 128gb', 'iPhone 12 64gb', 'iPhone 12 128gb', 'iPhone 12 Pro 128gb', 'iPhone 12 Pro 256gb', 'iPhone 12 Pro Max 128gb', 'iPhone 12 Pro Max 256gb'];
+const products = ['iPhone 11 64gb', 'iPhone 11 128gb', 'iPhone 11 Pro 64gb', 'iPhone 11 Pro 128gb', 'iPhone 11 Pro Max 64gb', 'iPhone 11 Pro Max 128gb', 'iPhone 12 64gb', 'iPhone 12 128gb', 'iPhone 12 Pro 128gb', 'iPhone 12 Pro 256gb', 'iPhone 12 Pro Max 128gb', 'iPhone 12 Pro Max 256gb'];
 const prices = {
     'iPhone 11 64gb': 269600,
     'iPhone 11 128gb': 299900,
