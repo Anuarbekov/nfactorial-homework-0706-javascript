@@ -82,7 +82,7 @@ while (comm != '0') {
             finalPrice += prices[basket[i]];
         }
         pusto();
-        console.log(`Your final price is ${finalPrice}tg.`);
+        console.log(`Your final price is ${finalPrice}kzt.`);
         finalPrice = 0;
         pusto();
     }
