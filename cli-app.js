@@ -72,7 +72,7 @@ while (comm != '0') {
         let indexOfDeleting = prompt("Choose your product id to delete(start from 1): ");
         const a = basket[indexOfDeleting-1];
         delete basket[indexOfDeleting-1];
-        console.log(`${a} was successfully deleted.`);
+        console.log(`"${a}" was successfully deleted.`);
         basket = basket.filter(function(x) {
             return x !== undefined;
        });
