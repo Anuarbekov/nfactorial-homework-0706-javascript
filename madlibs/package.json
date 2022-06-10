@@ -1,0 +1,21 @@
+{
+  "name": "madlibs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "madlib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pushToRepo": "git add . \n git commit -am 'commit' \n git remote add origin https://github.com/Anuarbekov/nfactorial-homework-1006-npm.git \n git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anuarbekov/nfactorial-homework-1006-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anuarbekov/nfactorial-homework-1006-npm/issues"
+  },
+  "homepage": "https://github.com/Anuarbekov/nfactorial-homework-1006-npm#readme"
+}
