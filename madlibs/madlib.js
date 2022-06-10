@@ -20,9 +20,10 @@ $('#switchTo').on('click', function () {
     const h3 = document.getElementsByClassName('h3');
     const final = document.getElementById('final');
     const nav = document.getElementById('navbar');
+    const navElements = document.getElementsByClassName('nav-link');
+
     nav.classList.toggle('bg-dark');
     final.classList.toggle('final-dark');
-    const navElements = document.getElementsByClassName('nav-link');
     for(let i = 0;i < navElements.length;i++) {
         navElements[i].classList.toggle('text-white');
     }
@@ -30,3 +31,7 @@ $('#switchTo').on('click', function () {
         h3[i].classList.toggle('h3-dark');
     }
 });
+
+const addCookies = () => {
+    document.cookie = "username=someone; expires=Wed, 15 Jun 2022 00:00:00 GMT"
+}

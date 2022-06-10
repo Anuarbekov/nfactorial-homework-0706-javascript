@@ -59,3 +59,6 @@ h3 {
     padding: 10px 5px;
     margin: 10px 5px;
 }
+.addcookie {
+    cursor: pointer;
+}
